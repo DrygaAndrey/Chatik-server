@@ -109,5 +109,6 @@ server.listen(PORT, (err) => {
   if (err) {
     throw Error(err);
   }
+  console.log('dirname:',__dirname);
   console.log("Server launched at", PORT, "port");
 });
